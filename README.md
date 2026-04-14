@@ -20,3 +20,26 @@ The codes are organized by the type of planned trajectory (circular and rectangu
 * **`main_circle_1.m`**: Main telemetry script. It handles the initiation of the control system, command sending, real-time data reception, and process termination. It must be run to inizializate the control of the Tracking_circle_1.ino.
 * **`processRealData.m`**: Processes the raw data obtained from telemetry and performs comparative calculations of the control algorithm. It prepares structured data for visualization.
 * **`Graphics.m`**: Generates the result plots based on the processed data.
+--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+### Folder: `Simulation_Matlab`
+
+This folder contains the MATLAB simulation codes for the inverse dynamics control applied to the planned trajectory tracking.
+
+#### Main Simulation Scripts
+* **`Tracking_circle_XYZ_1.m` / `Tracking_circle_XYZ_2.m`**: Main simulation scripts for tracking the circular trajectories.
+* **`Tracking_rectangle_XYZ_1.m` / `Tracking_rectangle_XYZ_2.m`**: Main simulation scripts for tracking the rectangular trajectories.
+
+#### Control and Modeling Classes
+* **`CIK_Robot3DOF.m`**: Class implementing the Inverse Dynamics Control algorithm.
+* **`RobotCinematica.m`**: Class implementing the kinematic characterization of the robot.
+* **`RobotDinamica.m`**: Class implementing the algorithms used to obtain the robot's dynamic equations.
+* **`load_parameters.m`**: Script containing the physical and design parameters of the manipulator.
+
+#### Trajectory Planning
+* **`TrajectoryPlanningCircle.m`**: Class implementing the circular trajectory planning algorithm.
+* **`TrajectoryPlanningRectangle.m`**: Class implementing the rectangular trajectory planning algorithm.
+
+#### Visualization and Analysis
+* **`RobotVisualization.m`**: Class implementing the 3D graphical simulation of the robot in motion.
+* **`Graphics.m`**: Script responsible for generating the control and trajectory planning performance plots.
