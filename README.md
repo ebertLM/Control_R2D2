@@ -22,7 +22,7 @@ The codes are organized by the type of planned trajectory (circular and rectangu
 * **`Graphics.m`**: Generates the result plots based on the processed data.
 --------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------
-### Folder: `Simulation_Matlab`
+### Folder: `Control_Dinamica Inversa_Simulacion_Matlab`
 
 This folder contains the MATLAB simulation codes for the inverse dynamics control applied to the planned trajectory tracking.
 
