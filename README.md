@@ -1,9 +1,6 @@
-# Control_R2D2
-Inverse dynamics control for trajectory tracking of a 3DoF manipulator
-
 # Operational Space Inverse Dynamics Control for a 3-DOF Robot
 
-This repository contains the implementation codes for the bachelor's thesis: *"Design and tuning of an operational space inverse dynamics controller for precise planned trajectory tracking of a three-degree-of-freedom robot"*.
+This repository contains the implementation codes for the bachelor's thesis: *"Diseño y sintonización de un controlador por dinámica inversa en el espacio operacional para la precisión del seguimiento de trayectorias planificadas de un robot de tres grados de libertad"* [Design and tuning of an operational space inverse dynamics controller for precise planned trajectory tracking of a three-degree-of-freedom robot].
 
 ## Project Structure
 
@@ -20,6 +17,6 @@ The codes are organized by the type of planned trajectory (circular and rectangu
 * **`FuncionesAuxiliares.h`** / **`.cpp`**: Auxiliary functions for managing communication and data telemetry.
 
 #### Telemetry and Analysis Files (MATLAB)
-* **`main_circle_1.m`**: Main telemetry script. It handles the initiation of the control system, command sending, real-time data reception, and process termination.
+* **`main_circle_1.m`**: Main telemetry script. It handles the initiation of the control system, command sending, real-time data reception, and process termination. It must be run to inizializate the control of the Tracking_circle_1.ino.
 * **`processRealData.m`**: Processes the raw data obtained from telemetry and performs comparative calculations of the control algorithm. It prepares structured data for visualization.
-* **`Graphics.m`** (Assumed): Generates the result plots based on the processed data.
+* **`Graphics.m`**: Generates the result plots based on the processed data.
